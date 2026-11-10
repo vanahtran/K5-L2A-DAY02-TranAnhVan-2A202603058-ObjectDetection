@@ -1,6 +1,5 @@
 # Báo cáo cá nhân — Ngày 2 Object Detection
 
-Đổi tên file theo `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md`. Điền kết quả thật, xóa dòng hướng dẫn khi nộp. Xem [quy định nộp](../../SUBMISSION.md).
 
 ## 1. Thông tin học viên
 
@@ -13,7 +12,7 @@
 
 ## 2. Schema và mini guideline
 
-Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ hồ đã quyết định, cách áp dụng schema và phần cần giảng viên làm rõ.
+Dẫn tới [GUIDELINE_MINI.md](/GUIDELINE_MINI.md). Tóm tắt ba ca mơ hồ đã quyết định, cách áp dụng schema và phần cần giảng viên làm rõ.
 
 ## 3. Annotation và self-QC
 
@@ -36,7 +35,7 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 | mean_iou_of_matches | 0.8589 | |
 | passed | false | |
 
-Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
+Dẫn tới [annotation_evaluation.json](/outputs/annotation_evaluation.json). trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
 
 Tình trạng rework:
 
@@ -62,7 +61,6 @@ Quyết định: Giữ nguyên bộ 50 nhãn hiện tại để tiếp tục quy
 | mAP50 | 0.2723 |
 | mAP50–95 | 0.2017 |
 
-Đặt cả 2 folder `assets/eval_predictions/` và `assets/yolo26_runs/` (giải nén từ `day2_colab_outputs.zip`) cạnh báo cáo và dẫn link tương đối. Không chỉ ghi số; chỉ ra ít nhất một ảnh và vật thể cụ thể.
 
 Trả lời bốn câu hỏi cuối notebook:
 
@@ -102,7 +100,7 @@ Trong notebook, 10 ảnh eval được khai báo ở phần val, được dùng 
 
 ## 7. Tự đánh giá theo rubric
 
-Đối chiếu [RUBRIC.md](../../RUBRIC.md): phần nào đã có kết quả, phần nào còn thiếu hoặc chưa kiểm được. Không tự nhận hoàn thành bước chưa chạy.
+Đối chiếu [RUBRIC.md](/RUBRIC.md): phần nào đã có kết quả, phần nào còn thiếu hoặc chưa kiểm được. Không tự nhận hoàn thành bước chưa chạy.
  Đối chiếu `RUBRIC.md`, kết quả thực hiện hiện tại như sau:
 
 | Tiêu chí | Kết quả tự đánh giá | Trạng thái |
